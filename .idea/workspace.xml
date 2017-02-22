@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d069231c-ab53-4363-b455-222e1b036eeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/book-detail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/reducer_active_book.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/app.js" afterPath="$PROJECT_DIR$/src/components/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/book-detail.js" afterPath="$PROJECT_DIR$/src/containers/book-detail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/reducer_books.js" afterPath="$PROJECT_DIR$/src/reducers/reducer_books.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="reducer_books.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/reducer_books.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="294">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -84,8 +81,8 @@
       <file leaf-file-name="book-detail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/book-detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -108,13 +105,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/reducer_books.js" />
         <option value="$PROJECT_DIR$/src/components/book-list.js" />
         <option value="$PROJECT_DIR$/src/containers/book-list.js" />
         <option value="$PROJECT_DIR$/src/actions/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/reducer_active_book.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/app.js" />
+        <option value="$PROJECT_DIR$/src/reducers/reducer_books.js" />
         <option value="$PROJECT_DIR$/src/containers/book-detail.js" />
       </list>
     </option>
@@ -131,8 +128,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2254" />
-    <option name="y" value="66" />
+    <option name="x" value="1781" />
+    <option name="y" value="184" />
     <option name="width" value="886" />
     <option name="height" value="773" />
   </component>
@@ -351,15 +348,15 @@
       <workItem from="1487648192751" duration="598000" />
       <workItem from="1487650701645" duration="324000" />
       <workItem from="1487688966385" duration="104000" />
-      <workItem from="1487697589748" duration="2527000" />
+      <workItem from="1487697589748" duration="3392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10977000" />
+    <option name="totallyTimeSpent" value="11842000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2254" y="66" width="886" height="773" extended-state="0" />
+    <frame x="1781" y="184" width="886" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29248554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -563,14 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/reducer_books.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/reducer_active_book.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -611,10 +600,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducer_books.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/book-detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
